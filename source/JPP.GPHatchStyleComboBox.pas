@@ -31,7 +31,7 @@ uses
   {$IFDEF DCC}{$IFDEF HAS_SYSTEM_UITYPES}System.UITypes,{$ENDIF}{$ENDIF}
   {$ENDIF}
 
-  IGDIPlus, IGDIPlusHelpers,
+  GDIPlus, GDIPlusHelpers,
   JPP.Common, JPP.AnchoredControls;
 
 
@@ -790,7 +790,7 @@ var
   State: TOwnerDrawState;
 begin
   inherited;
-  // XOR-owanie juø narysowanego FocusRect w metodzie TCustomComboBox.CNDrawItem.
+  // XOR-owanie ju≈º narysowanego FocusRect w metodzie TCustomComboBox.CNDrawItem.
   // https://stackoverflow.com/questions/28649219/how-to-remove-the-dotted-focus-rectangle-from-tlistbox
   if FAppearance.DisableFocusRect then
   begin
