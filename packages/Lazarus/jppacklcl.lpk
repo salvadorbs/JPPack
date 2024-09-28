@@ -178,7 +178,7 @@
         <PackageName Value="DateTimeCtrls"/>
       </Item1>
       <Item2>
-        <PackageName Value="LazIGDIPlus"/>
+        <PackageName Value="LazGDIPlus"/>
       </Item2>
       <Item3>
         <PackageName Value="jplib"/>
